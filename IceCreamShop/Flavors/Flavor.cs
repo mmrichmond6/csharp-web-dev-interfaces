@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace IceCreamShop
+namespace IceCreamShop.Flavors
 {
     public class Flavor : Ingredient
     {

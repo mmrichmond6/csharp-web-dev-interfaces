@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace IceCreamShop
+namespace IceCreamShop.Cones
 {
     public class Cone : Ingredient
     {

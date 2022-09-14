@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace IceCreamShop
+namespace IceCreamShop.Cones
 {
     public class ConeComparer : IComparer<Cone>
     {
         public ConeComparer()
         {
         }
-        
+
         public int Compare(Cone x, Cone y)
         {
             double diff = x.Cost - y.Cost;
-            if(diff == 0)
+            if (diff == 0)
             {
                 return 0;
             }
